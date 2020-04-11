@@ -3,31 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://example.com/about.html</loc>
-    <lastmod>2020-04-11T16:27:45+02:00</lastmod>
+    <loc>https://github.com/Tttoufu/Tttoufu.github.io.git/posts.html</loc>
+    <lastmod>2020-04-11T17:46:03+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/</loc>
-    <lastmod>2020-04-11T16:27:45+02:00</lastmod>
+    <loc>https://github.com/Tttoufu/Tttoufu.github.io.git/</loc>
+    <lastmod>2020-04-11T17:46:03+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/posts/hello-world.html</loc>
-    <lastmod>2020-04-11T16:27:33+02:00</lastmod>
+    <loc>https://github.com/Tttoufu/Tttoufu.github.io.git/posts/%E4%B8%AD%E6%96%87.html</loc>
+    <lastmod>2020-04-11T17:45:45+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/posts.html</loc>
-    <lastmod>2020-04-11T16:27:33+02:00</lastmod>
+    <loc>https://github.com/Tttoufu/Tttoufu.github.io.git/posts/hello-world.html</loc>
+    <lastmod>2020-04-11T17:46:03+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/categories.html</loc>
+    <loc>https://github.com/Tttoufu/Tttoufu.github.io.git/categories.html</loc>
   </url>
   
   <url>
-    <loc>https://example.com/tags.html</loc>
+    <loc>https://github.com/Tttoufu/Tttoufu.github.io.git/tags.html</loc>
   </url>
   
 </urlset>
