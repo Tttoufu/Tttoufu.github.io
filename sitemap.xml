@@ -3,31 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://github.com/Tttoufu/Tttoufu.github.io.git/posts.html</loc>
+    <loc>/posts.html</loc>
     <lastmod>2020-04-11T17:46:03+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://github.com/Tttoufu/Tttoufu.github.io.git/</loc>
+    <loc>/</loc>
     <lastmod>2020-04-11T17:46:03+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://github.com/Tttoufu/Tttoufu.github.io.git/posts/%E4%B8%AD%E6%96%87.html</loc>
+    <loc>/posts/%E4%B8%AD%E6%96%87.html</loc>
     <lastmod>2020-04-11T17:45:45+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://github.com/Tttoufu/Tttoufu.github.io.git/posts/hello-world.html</loc>
+    <loc>/posts/hello-world.html</loc>
     <lastmod>2020-04-11T17:46:03+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://github.com/Tttoufu/Tttoufu.github.io.git/categories.html</loc>
+    <loc>/categories.html</loc>
   </url>
   
   <url>
-    <loc>https://github.com/Tttoufu/Tttoufu.github.io.git/tags.html</loc>
+    <loc>/tags.html</loc>
   </url>
   
 </urlset>

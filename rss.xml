@@ -8,7 +8,7 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Yan-Peng</title>
-        <link>https://github.com/Tttoufu/Tttoufu.github.io.git/</link>
+        <link>/</link>
         <description>MemE is a powerful and highly customizable GoHugo theme for personal blogs.</description>
         <generator>Hugo 0.69.0 https://gohugo.io/</generator>
         
@@ -23,15 +23,15 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
         
-        <lastBuildDate>Sat, 11 Apr 2020 17:46:04 +0200</lastBuildDate>
+        <lastBuildDate>Sat, 11 Apr 2020 17:50:21 +0200</lastBuildDate>
         
-            <atom:link rel="self" type="application/rss+xml" href="https://github.com/Tttoufu/Tttoufu.github.io.git/rss.xml" />
+            <atom:link rel="self" type="application/rss+xml" href="/rss.xml" />
         
         
             <item>
                 <title>中文</title>
-                <link>https://github.com/Tttoufu/Tttoufu.github.io.git/posts/%E4%B8%AD%E6%96%87.html</link>
-                <guid isPermaLink="true">https://github.com/Tttoufu/Tttoufu.github.io.git/posts/%E4%B8%AD%E6%96%87.html</guid>
+                <link>/posts/%E4%B8%AD%E6%96%87.html</link>
+                <guid isPermaLink="true">/posts/%E4%B8%AD%E6%96%87.html</guid>
                 <pubDate>Sat, 11 Apr 2020 17:45:03 +0200</pubDate>
                 
                     <author>reuixiy@gmail.com (reuixiy)</author>
@@ -55,8 +55,8 @@
         
             <item>
                 <title>Hello World</title>
-                <link>https://github.com/Tttoufu/Tttoufu.github.io.git/posts/hello-world.html</link>
-                <guid isPermaLink="true">https://github.com/Tttoufu/Tttoufu.github.io.git/posts/hello-world.html</guid>
+                <link>/posts/hello-world.html</link>
+                <guid isPermaLink="true">/posts/hello-world.html</guid>
                 <pubDate>Sat, 11 Apr 2020 16:27:33 +0200</pubDate>
                 
                     <author>reuixiy@gmail.com (reuixiy)</author>
