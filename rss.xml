@@ -15,55 +15,118 @@
             <language>en</language>
         
         
-            <managingEditor>reuixiy@gmail.com (reuixiy)</managingEditor>
+            <managingEditor>y.peng1994@gmail.com (peng)</managingEditor>
         
         
-            <webMaster>reuixiy@gmail.com (reuixiy)</webMaster>
+            <webMaster>y.peng1994@gmail.com (peng)</webMaster>
         
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
         
-        <lastBuildDate>Sat, 11 Apr 2020 17:50:21 +0200</lastBuildDate>
+        <lastBuildDate>Mon, 13 Apr 2020 18:32:05 +0200</lastBuildDate>
         
             <atom:link rel="self" type="application/rss+xml" href="/rss.xml" />
         
         
             <item>
-                <title>中文</title>
-                <link>/posts/%E4%B8%AD%E6%96%87.html</link>
-                <guid isPermaLink="true">/posts/%E4%B8%AD%E6%96%87.html</guid>
-                <pubDate>Sat, 11 Apr 2020 17:45:03 +0200</pubDate>
-                
-                    <author>reuixiy@gmail.com (reuixiy)</author>
-                
-                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
-                
-                    <description><![CDATA[<p>试试看中文的效果如何</p>
-]]></description>
-                
-                
-                
-                
-                
-                    
-                        
-                    
-                        
-                    
-                
-            </item>
-        
-            <item>
-                <title>Hello World</title>
+                <title>关于如何用Github Pages &#43; Hugo 建立自己的个人博客</title>
                 <link>/posts/hello-world.html</link>
                 <guid isPermaLink="true">/posts/hello-world.html</guid>
                 <pubDate>Sat, 11 Apr 2020 16:27:33 +0200</pubDate>
                 
-                    <author>reuixiy@gmail.com (reuixiy)</author>
+                    <author>y.peng1994@gmail.com (peng)</author>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
                 
-                    <description><![CDATA[]]></description>
+                    <description><![CDATA[<h2 id="前期准备"><strong>前期准备</strong></h2>
+<ol>
+<li>Hugo</li>
+<li>Git</li>
+<li>Github账号</li>
+</ol>
+<h2 id="安装hugo"><strong>安装Hugo</strong></h2>
+<p>先在电脑上安装Hugo, 具体安装方法参照<a href="htts://gohugo.io/getting-started/installing#readout">Hugo官网文档</a>，我是windows系统，所以直接下载<a href="https://chocolatey.org">Chocolatey</a>，然后打开<code>cmd</code>，输入指令
+<code>choco install hugo-extended</code>
+然后就安装完成了。</p>
+<h2 id="安装git"><strong>安装git</strong></h2>
+<p>在<a href="https://git-scm.com/">git官网</a>按照指示下载安装好后，打开<code>cmd</code>，输入
+<code>git version</code>
+如果正确显示git version那就说明安装成功了。</p>
+<h2 id="注册github账号"><strong>注册Github账号</strong></h2>
+<p>打开<a href="https://github.com/">GitHub</a>然后注册一个你的个人账号</p>
+<h2 id="为你的博客创建一个代码库"><strong>为你的博客创建一个代码库</strong></h2>
+<p>新建一个<code>repository</code>，然后在<code>Repository name</code>中输入 <code>username.github.io</code>，选择<code>Public</code>公开，再点击<code>Creat repository</code>就可创建你个人的代码库了</p>
+<h2 id="利用hugo创建静态网页"><strong>利用Hugo创建静态网页</strong></h2>
+<h3 id="初始化hugo"><strong>初始化Hugo</strong></h3>
+<p>首先打开<code>cmd</code>，选择一个路径来存放你的博客，比如选择D盘，那么就可以输入<br><code>cd D:</code><br>进入D盘，然后执行<br><code>hugo new site Blogname</code><br>之后会在你的文件夹下创建一个名为<code>Blogname</code>的文件夹，目录结构为</p>
+<blockquote>
+<p>.<br>
+├─archetypes
+├─content
+├─data
+├─layouts
+├─static
+├─themes
+└─config.toml</p>
+</blockquote>
+<h3 id="下载安装主题"><strong>下载安装主题</strong></h3>
+<p>接下来可以<a href="https://themes.gohugo.io/">在Hugo的主题页面</a>选择一个你喜欢的主题当作博客的模板，我选择的是<a href="https://themes.gohugo.io/hugo-theme-meme/">MemE</a>，然后在<code>cmd</code>中输入<br><code>cd Blogname</code><br>
+<code>cd themes</code><br>进入themes文件夹，接下来输入指令<br><code>git clone https://github.com/reuixiy/hugo-theme-meme.git</code><br>将主题下载到<code>themes</code>文件夹，然后在<code>themes</code>文件夹中将下载好的主题文件夹改名为<code>Meme</code></p>
+<h3 id="配置config"><strong>配置<code>config</code></strong></h3>
+<p><code>config.toml</code> 用于存放整个网站的配置信息。</p>
+<p>首先进入下载好的主题<code>Meme</code>文件夹中，打开<code>config-examples-&gt; en</code>，复制<code>config.toml</code>到<code>Blogname</code>根目录覆盖原本的<code>config.toml</code>然后打开<code>config.toml</code>(这里我用的是vscode，强烈推荐)，按照你的需求修改.</p>
+<p>这里我修改了<code>baseURL,title, autohr</code>等，具体的每个参数信息可以在Hugo官网上查询到。</p>
+<p>这路要注意的是在<code>config.toml</code>中将下列参数改成<code>true</code>，如果没有可以自己加进去</p>
+<pre><code>relativeURLs = true
+uglyURLs = true
+</code></pre><p>我就是之前没改这两个参数，导致public中的静态网页上传后一直加载不出css和jason，折腾了一晚上才解决的</p>
+<h3 id="创建你的第一篇个人博客"><strong>创建你的第一篇个人博客</strong></h3>
+<p>接下来输入
+<code>cd ..</code>
+返回<code>Blogname</code>目录，然后输入指令
+<code>hugo new posts/my first blog.md</code>
+就会在<code>content</code>的<code>posts</code>文件夹下生成一个<code>my first blog.md</code>的文件，打开文件就可以看到以下已经生成的信息</p>
+<pre><code> ---
+ title: &quot;my first blog&quot;
+ date: 2020-03-05T20:56:47+08:00
+ draft: true
+ ---
+</code></pre><ul>
+<li><code>title</code> 为文章标题</li>
+<li><code>date</code> 为时间</li>
+<li><code>draft</code> 为草稿，上传文章时需要设置为<code>true</code>
+当然参数不仅仅为这三个，你还可以自己设置其他参数比如<code>tags, categories</code>之类。</li>
+</ul>
+<p>然后你就可以在下面写你的博客内容了，当然要先学会Markdown的基本语法，不过这个很简单，五分钟就掌握个大概。</p>
+<h3 id="生成网站"><strong>生成网站</strong></h3>
+<p>执行命令
+<code>hugo server </code>
+然会你就可以在<code>http://localhost:1313</code>本地访问你的博客</p>
+<h2 id="发布在github-pages上"><strong>发布在Github pages上</strong></h2>
+<p>首先执行
+<code>hugo</code>
+然后Hugo会生成一个<code>public</code>文件夹，然后
+<code>cd public</code>
+进入文件夹中，然后执行</p>
+<pre><code>git config --global user.name &quot;xxxxx&quot;
+git config --global user.email &quot;xxxxx@xx.com&quot;
+
+</code></pre><p>设置全局用户名和邮箱，用于识别身份，将xxxx换成自己的guthub名字和邮箱</p>
+<p>接下来输入指令</p>
+<pre><code># 初始化
+git init
+# 添加public中的所有文件
+git add .
+# 提交描述，xxxx为你提交的描述
+git commit -m &quot;xxxxx&quot;
+# 链接到远端，将xxxx换成自己的链接
+git remote add origin https://github.com/XXXXX/XXXXX.github.io.git
+
+git pull origin master
+git push -u origin master
+</code></pre><p>在这里我一直<code>git push</code>失败，后来改成了<code>git push git push -u origin master -f</code>即强制push就成功了。</p>
+<p>接下来打开你的<code>Github</code>,进入你个人博客的<code>repository</code>，在右上角打开<code>Setting</code>，滑到最下面的<code>Github Pages</code>，将<code>Source</code>选为当前的<code>master</code>，保存后即可，接下来打开<code>xxxx.github.io</code>就看到了你的个人博客啦。</p>
+]]></description>
                 
                 
                 
